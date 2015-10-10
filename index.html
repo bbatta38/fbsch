@@ -7,12 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
+    <link rel="stylesheet" href="css/roboto.min.css">
+    <link rel="stylesheet" href="css/ripples.css">
     <!-- 합쳐지고 최소화된 최신 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
     <!-- 부가적인 테마 -->
-    <link rel="stylesheet" href="css/material.min.css">
+    <link rel="stylesheet" href="css/material-fullpalette.min.css">
+    <link rel="stylesheet" href="css/fbsch.css">
 
+    <script src="js/ripples.min.js"></script>
+    <script src="js/material.min.js"></script>
     <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </head>
@@ -20,15 +25,26 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">FSS</a>
+                <a class="navbar-brand" href="index.html">FSS</a>
             </div>
         </div>
     </nav>
+    <section class="container fbsch-login-con">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="input-group-lg">
+                    <fieldset>
+                        <legend>페이스북 로그인</legend>
+                        <input type="text" class="form-control" placeholder="이메일주소" />
+                        <input type="password" class="form-control" placeholder="비밀번호" />
+                        <input type="button" class="btn btn-inverse btn-raised btn-block" value="페이스북 로그인" />
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <address>©copyright bbatta</address>
+    </footer>
 </body>
 </html>
